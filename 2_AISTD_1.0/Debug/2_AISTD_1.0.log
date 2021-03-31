@@ -1,0 +1,11 @@
+﻿  2_AISTD_1.0.cpp
+C:\Users\vlaso\Desktop\ucheba-4sem\AISTD\2_AISTD_1.0\Red_Black_Tree.h(377,1): error C2664: "int remove(const char *)": невозможно преобразовать аргумент 1 из "Key" в "const char *"
+          with
+          [
+              Key=int
+          ]
+C:\Users\vlaso\Desktop\ucheba-4sem\AISTD\2_AISTD_1.0\Red_Black_Tree.h(377,14): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(364,26): message : см. объявление "remove"
+C:\Users\vlaso\Desktop\ucheba-4sem\AISTD\2_AISTD_1.0\Red_Black_Tree.h(375): message : во время компиляции функции-члена класс шаблон "void RBTree<int,char>::Clear(void)"
+C:\Users\vlaso\Desktop\ucheba-4sem\AISTD\2_AISTD_1.0\Red_Black_Tree.h(92): message : выполняется компиляция ссылки на экземпляр шаблон функции "void RBTree<int,char>::Clear(void)"
+C:\Users\vlaso\Desktop\ucheba-4sem\AISTD\2_AISTD_1.0\2_AISTD_1.0.cpp(7): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "RBTree<int,char>"
